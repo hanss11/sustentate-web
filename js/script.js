@@ -5,7 +5,7 @@ Version : 1.0
 Author  : Surjith S M
 URI     : https://surjithctly.in/
 
-Copyright © All rights Reserved 
+Copyright © All rights Reserved
 
 */
 
@@ -34,7 +34,7 @@ $(function() {
     $('.navbar-nav > li:not(.dropdown) > a').on('click', function() {
         $('.navbar-collapse').collapse('hide');
     });
-    /* 
+    /*
      * NAVBAR TOGGLE BG
      *-----------------*/
     var siteNav = $('#navbar');
@@ -85,6 +85,8 @@ $(function() {
             items: 1,
             nav: true,
             dots: false,
+            autoplay: true,
+            loop: true,
             navText: ['<span class="ti-arrow-left"></span>', '<span class="ti-arrow-right"></span>']
         });
     }
