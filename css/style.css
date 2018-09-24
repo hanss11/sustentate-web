@@ -234,6 +234,14 @@ background: linear-gradient(to right, #20bf97 1%,#45d396 100%); /* W3C, IE10+, F
   }
 }
 
+@media (max-width:768px){
+  .imagenplanetablog{
+    padding-top: 40px;
+    padding-bottom: 0px
+    !important;
+  }
+}
+
 
 /* HERO
 ----------------------*/
