@@ -226,6 +226,13 @@ background: linear-gradient(to right, #20bf97 1%,#45d396 100%); /* W3C, IE10+, F
         text-align: center;
     }
 }
+@media (max-width:375px){
+  .navbar-toggler{
+    top: 10px;
+    right: 0;
+    position: absolute;
+  }
+}
 
 
 /* HERO
